@@ -1,86 +1,107 @@
 <!DOCTYPE html>
 
 <html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>LICORES COFRADIA</title>
+    <link rel="stylesheet" href="styles/reset.css" />
+    <link rel="stylesheet" href="styles/stylecofra.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-   <head>
+  <body>
+    <header>
+      <div class="caja">
+        <img src="assets/logo.png" />
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="pages/productos.html">Productos</a></li>
+            <li><a href="pages/contacto.html">Contacto</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
 
-       <meta charset="UTF-8">
-       <meta name="viewport" content="width=device-width">
-       <title>LICORES COFRADIA</title>
-       <link rel="stylesheet" href="styles/reset.css">
-       <link rel = "stylesheet" href="styles/stylecofra.css">
-       <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet"> 
-   </head>
+    <img class="banner" src="assets/elaborar-vino-casero.jpg" />
 
-   <body>
+    <main>
+      <section class="principal">
+        <h2 class="titulo-principal">Sobre la licorera</h2>
+        <img class="utensilios" src="assets/arroz.webp" />
 
-      <header>
-            <div class="caja">
-                <img src="assets/logo.png">
-                <nav>
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="pages/productos.html">Productos</a></li>
-                        <li><a href="pages/contacto.html">Contacto</a></li>
-                    </ul>
-                </nav>
-            </div>     
-        </header>
+        <p>
+          Ubicada en el municipio de Bello Antioquia, la
+          <strong>Licorera Cofradia</strong> trae para el mercado lo mejor en
+          vinos 100% artesanales, a base de arroz, mora y flor de Jamaica.
+          Fundada en 2023, la licoreta Cofradia ya se destaca en la ciudad y
+          conquista nuevos clientes diariamente.
+        </p>
 
-        <img class = "banner" src="assets/elaborar-vino-casero.jpg">
+        <p id="mision">
+          <em
+            >Nuestra misión es:
+            <strong
+              >"Brindar nuevas experiencias de sabor a nuestros
+              clientes"</strong
+            >.</em
+          >
+        </p>
 
-        <main>
-            <section class="principal">
+        <p>
+          Ofrecemos productos artesanos de calidad, así conquistamos el paladar
+          y el corazón de nuestros clientes.
+        </p>
+      </section>
 
-                <h2 class="titulo-principal">Sobre la licorera</h2>
-                <img class= "utensilios" src="assets/arroz.webp">
-    
-                <p>Ubicada en el municipio de Bello Antioquia, la <strong>Licorera Cofradia</strong> trae para el mercado lo mejor en  vinos 100% artesanales, a base de arroz, mora y flor de Jamaica. Fundada en 2023, la licoreta Cofradia ya se destaca en la ciudad y conquista nuevos clientes diariamente.</p> 
-    
-                <p id="mision"><em>Nuestra misión es: <strong>"Brindar nuevas experiencias de sabor a nuestros clientes"</strong>.</em></p>
-    
-                <p>Ofrecemos productos artesanos de calidad, así conquistamos el paladar y el corazón de nuestros clientes.</p>
-    
-            </section>
+      <section class="mapa">
+        <h3 class="titulo-principal">Nuestra ubicación</h3>
+        <p>
+          Nuestra fabrica está ubicada a una cuadra de la estacón del metro
+          Niquia, acá te compartimos la ubicación
+        </p>
+        <div class="mapa-contenido">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15861.632019893521!2d-75.5430927!3d6.3411706!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e442f518d461791%3A0xeaa686392ceeaa1a!2sSan%20Francisco%20Etapa%201!5e0!3m2!1ses-419!2sco!4v1701133427277!5m2!1ses-419!2sco"
+            width="1000"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </section>
 
-            <section class="mapa">
-                <h3 class="titulo-principal">Nuestra ubicación</h3>
-                <p>Nuestra fabrica está ubicada a una cuadra de la estacón del metro Niquia, acá te compartimos la ubicación</p>
-                <div class="mapa-contenido">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15861.632019893521!2d-75.5430927!3d6.3411706!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e442f518d461791%3A0xeaa686392ceeaa1a!2sSan%20Francisco%20Etapa%201!5e0!3m2!1ses-419!2sco!4v1701133427277!5m2!1ses-419!2sco" width="1000" height="450" style="border: 0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                </div>
-                
+      <section class="diferenciales">
+        <h3 class="titulo-principal">Diferenciales de la marca</h3>
 
-            </section>
-    
-           <section class="diferenciales">
-    
-                <h3 class="titulo-principal">Diferenciales de la marca</h3>
+        <div class="contenido-diferenciales">
+          <ul class="lista-diferenciales">
+            <li class="items">Atención personalisada a los clientes</li>
+            <li class="items">
+              Visita a los establecimientos para activar la marca
+            </li>
+            <li class="items">Localización de la empresa</li>
+            <li class="items">Puntualidad en las entregas</li>
+            <li class="items">Limpieza</li>
+          </ul>
+          <img src="assets/curie-saito.png" class="imagen-diferencial" />
 
-                <div class="contenido-diferenciales">
-                    <ul class="lista-diferenciales">
-                        <li class="items">Atención personalisada a los clientes</li>
-                        <li class="items">Visita a los establecimientos para activar la marca</li>
-                        <li class="items">Localización de la empresa</li> 
-                        <li class="items">Puntualidad en las entregas</li>
-                        <li class="items">Limpieza</li>
-                    </ul><img src="assets/curie-saito.png" class="imagen-diferencial">
+          <div class="imagenc">
+            <img src="assets/foto-saito.jpeg" class="imagenc" />
+          </div>
+        </div>
+      </section>
+    </main>
 
-                    <div class="imagenc">
-                        <img src="assets/foto-saito.jpeg"  class = "imagenc">      
-                    </div>
-
-                </div>
-                                      
-               </section>  
-                     
-        </main>
-
-       <footer>
-         <img src="assets/logo.png">
-         <p class="copyright">&copy Copyright Licorera Cofradia - 2023</p>
-       </footer>
-      
-   </body>
-
+    <footer>
+      <img src="assets/logo.png" />
+      <p class="copyright">&copy Copyright Licorera Cofradia - 2023</p>
+    </footer>
+  </body>
 </html>
